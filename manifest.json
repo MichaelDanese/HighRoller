@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "High Roller",
+    "version": "0.1",
+    "description": "Dice roller for tabletop.",
+    "icons": {
+        "128": "./images/icon128.png",
+        "48": "./images/icon48.png",
+        "16": "./images/icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "./images/icon16.png",
+        "default_popup": "./html/index.html"
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "tabs",
+        "storage"
+    ]
+}

@@ -1,0 +1,88 @@
+.output {
+    overflow:auto;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 400px;
+    max-width: 400px;
+    background-color: #FFA500;
+    border-radius: 25px;
+    border: 3px solid 	#FF8C00;
+    font-family: "Courier";
+    word-wrap: break-word;
+}
+
+body{
+    
+    border: 3px solid 	#FF4500;
+    padding: 10px;
+    background-color:#FF6347;
+}
+button{
+    
+    border: 3px solid #FF7F50;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #FFA500;
+    outline: 0;
+    font-family: "Courier";
+    margin-bottom: 10px;
+    margin-right: 1px;
+}
+input{
+    
+    border: 3px solid #FF7F50;
+    border-radius: 25px;
+    outline: none;
+    padding: 10px;
+    background-color: #FFA500;
+    margin-right: 10px;
+    font-family: "Courier"
+    
+}
+.intro{
+    text-align: center;
+    font-family: "Courier"
+}
+.out{
+    color: black;
+    border-bottom: 2px solid #FF8C00;
+    
+}
+
+.greet{
+    border-bottom: 2px solid #FF8C00;
+    
+}
+.diceRoll{  
+    font-weight: bold;  
+}
+.valueOutput{  
+  font-style: italic;
+}
+
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #FF8C00; 
+    border-radius: 10px;
+    border: 3px solid #FF4500;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF4500; 
+  }
+  ::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 20px; 
+    }
+  ::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 20px;
+}
